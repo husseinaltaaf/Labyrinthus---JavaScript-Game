@@ -27,24 +27,24 @@ let images = [
     src: "./assets/medium.gif",
     size: 436,
     collisionLT: 24,
-    collisionRB: 398,
+    collisionRB: 402,
     startY: 25,
     startX: 332,
     win: {
-      x: 180,
-      y: 398,
+      x: 402,
+      y: 180,
     },
   },
   {
     src: "./assets/large.gif",
     size: 503,
     collisionLT: 24,
-    collisionRB: 465,
+    collisionRB: 470,
     startY: 465,
     startX: 112,
     win: {
-      x: 134,
-      y: 465,
+      x: 132,
+      y: 470,
     },
   },
   {
@@ -135,7 +135,7 @@ function nextLevel(index) {
   const time = totalSeconds;
   score.push(time);
   var totalDisplay = document.getElementById("totalDisplay");
-  totalDisplay.innerHTML += `<span id="levelTitle">Level ${index}<span> - <span id="timeTook">Time taken = ${time}`;
+  totalDisplay.innerHTML += `<br /><span id="levelTitle">Level ${index}<span> - <span id="timeTook">Time taken = ${time}`;
   totalSeconds = -1;
   return setInterval(draw, 10);
 }
@@ -201,7 +201,8 @@ function checkcollision() {
   }
 
   var index = level - 1;
-  console.log(index, x, y, totalSeconds);
+  console.log(index);
+  console.log(x, y, images[index].win.x, images[index].win.y);
 
   if (x < images[index].collisionLT) {
     collision = 1;
