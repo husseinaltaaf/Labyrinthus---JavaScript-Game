@@ -135,7 +135,7 @@ function nextLevel(index) {
   const time = totalSeconds;
   score.push(time);
   var totalDisplay = document.getElementById("totalDisplay");
-  totalDisplay.innerHTML += `<br /><span id="levelTitle">Level ${index}<span> - <span id="timeTook">Time taken = ${time}`;
+  totalDisplay.innerHTML += `<span id="levelTitle">Level ${index}<span> - <span id="timeTook">Time taken = ${time}<br />`;
   totalSeconds = -1;
   return setInterval(draw, 10);
 }
