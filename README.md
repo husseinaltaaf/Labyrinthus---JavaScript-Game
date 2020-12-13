@@ -1,4 +1,4 @@
-# Labyrinthus - A Maze Game [PLAY NOW](https://husseinaltaaf.github.io/JavascriptGame---Maze-Game/index.html)
+# Labyrinthus - A Maze Game [PLAY NOW](https://husseinaltaaf.github.io/Labyrinthus---JavaScript-Game/)
 
 This is simply a Maze game where you have to start from one point and go to the finish point as fast as you can!
 
