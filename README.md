@@ -10,15 +10,7 @@ There are 5 levels in total & each new level increases the difficulty!
 
 You have to use your **W,S,A,D** keys (_W - UP_, _S - DOWN_, _A - LEFT_, _D - RIGHT_) to navigate throught the maze!
 
-### Submission Date: `December 9, 2020`
-
 ### Made By: `Hamod Altaaf`
-
-### Email: `mahamod@student.udm.ac.mu`
-
-### Class Group: `SE3.1`
-
-### Supervisor: `Mrs D. Ramlowat`
 
 ## About Game and Referrences
 
