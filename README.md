@@ -1,4 +1,4 @@
-# Labyrinthus - A Maze Game [PLAY NOW](https://husseinaltaaf.github.io/JavascriptGame---Maze-Game/)
+# Labyrinthus - A Maze Game [PLAY NOW](https://husseinaltaaf.github.io/Labyrinthus---JavaScript-Game/)
 
 This is simply a Maze game where you have to start from one point and go to the finish point as fast as you can!
 
@@ -10,15 +10,7 @@ There are 5 levels in total & each new level increases the difficulty!
 
 You have to use your **W,S,A,D** keys (_W - UP_, _S - DOWN_, _A - LEFT_, _D - RIGHT_) to navigate throught the maze!
 
-### Submission Date: `December 9, 2020`
-
 ### Made By: `Hamod Altaaf`
-
-### Email: `mahamod@student.udm.ac.mu`
-
-### Class Group: `SE3.1`
-
-### Supervisor: `Mrs D. Ramlowat`
 
 ## About Game and Referrences
 
